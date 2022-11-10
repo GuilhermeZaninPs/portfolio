@@ -1,0 +1,190 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #151515;
+}
+.header-main {
+    /* padding: 5px 50px; */
+    height: 90px;
+}
+.button-nav {
+    border: none;
+}
+.button-toggle {
+    color: white;
+    font-size: 30px;
+}
+.logo {
+    background-color: #11DBF7;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    text-align: center;
+    padding: 15px 5px;
+    margin:10px 50px 0;
+    font-weight: 800;
+    text-decoration: none;
+    color: black;
+}
+.logo:hover {
+    text-decoration: none;
+    color: black;
+}
+.navbar-nav {
+    align-items: flex-end;
+}
+.links {
+    text-decoration: none;
+    color: white;
+}
+.links:hover {
+    text-decoration: underline;
+    text-decoration-color: #f8ff38;
+    text-underline-offset: 3px;
+    color: white;
+}
+
+.side-btn-container {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 20px;
+    top: 35%;
+    background-color: transparent;
+    z-index: 1;
+}
+.icon {
+    width: 15px;
+    margin: 0 0 15px;
+}
+
+.home-introduction {
+    text-align: center;
+    color: #ADADAD;
+    padding: 200px 0;
+}
+
+.home-introduction h4 {
+    color: #11DBF7;
+}
+.name-gz {
+    color: white;
+    font-weight: 800;
+}
+.sign {
+    color: #5C5B5B;
+    font-weight: 500;
+}
+.contactBtn {
+    border: #11DBF7 solid 3px;
+    color: #11DBF7;
+    background-color: transparent;
+    width: 200px;
+    height: 50px;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.contactBtn:hover {
+    background-color: #11DBF7;
+    color: black;
+    font-weight: 600;
+
+}
+
+.about {
+    margin-top: 150px;
+    height: 90vh;
+    position: relative;
+    /* padding: 100px 50px; */
+    /* z-index: 1; */
+}
+.bg-about {
+    position: absolute;
+    background-image: url("/images/bk-about1.jpg");
+    transform: scaleX(-1);
+    height: 100%;
+    width: 100%;
+    filter: blur(2px);
+}
+.text-about {
+    position: absolute;
+    background-color: transparent;
+    color: white;
+    padding: 100px 66px;
+}
+.title {
+    color: white;
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-color: #f8ff38;
+    background-color: transparent;
+}
+.content-about {
+    font-size: 1rem;
+    background-color: transparent;
+    width: 50%;
+    line-height: 2;
+    margin-top: 50px;
+}
+.text-about > button {
+    margin: 40px 40px 0 0;
+}
+
+.skills {
+    padding: 100px 66px;
+}
+.cards {
+    margin: 0 !important;
+    padding: 0;
+    width: 100%;
+}
+.card-item {
+    background-color: #5C5B5B;
+    color: white;
+    margin: 10px;
+    height: 25vh;
+    text-align: center;
+    padding: 50px 0;
+}
+.img-skill, .text-skill {
+    background-color: transparent;
+}
+.img-skill {
+    width: 60px;
+}
+.text-skill {
+    font-size: 2rem;
+    text-decoration: underline;
+    text-decoration-color: #f8ff38;
+    text-underline-position: under;
+}
+
+@media screen and (max-width: 776px) {
+    .home-introduction {
+        text-align: center;
+        padding: 200px 20px 0;
+    }
+    .text-intro {
+        font-size: 2.5rem;
+    }
+    .contactBtn {
+        width: 125px;
+        height: 50px;
+    }
+    .about {
+        height: 124vh;
+    }
+    .title {
+        font-size: 2.5rem;
+    }
+    .content-about {
+        width: 100%;
+    }
+    .text-about {
+        padding: 50px 66px;
+    }
+    
+}
