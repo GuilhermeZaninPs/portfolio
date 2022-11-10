@@ -103,7 +103,7 @@
 }
 .bg-about {
     position: absolute;
-    background-image: url("/images/bk-about1.jpg");
+    background-image: url("./images/bk-about1.jpg");
     transform: scaleX(-1);
     height: 100%;
     width: 100%;
