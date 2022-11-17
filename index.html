@@ -30,23 +30,35 @@
                 </div>
             </nav>
     </header>
-    <div class="side-btn-container">
-        <img src="images/circlewhite.png" class="icon" alt="">
-        <img src="images/circlegrey.png"  class="icon" alt="">
-        <img src="images/circlegrey.png"  class="icon" alt="">
-        <img src="images/circlegrey.png"  class="icon" alt="">
-        <img src="images/circlegrey.png"  class="icon" alt="">
-    </div>
 
-    <main>
-        <section class="home-introduction">    
+    <!-- Side menu -->
+    <!-- <div id="menu-list" class="side-btn-container list-group">
+        <a href="#home-section" class="list-group-item list-group-item-action">
+            <img src="images/circlewhite.png" class="icon" alt="">
+        </a>
+        <a href="#about-section" class="list-group-item list-group-item-action">
+            <img src="images/circlegrey.png"  class="icon" alt="">
+        </a>
+        <a href="#skill-section" class="list-group-item list-group-item-action">
+            <img src="images/circlegrey.png"  class="icon" alt="">
+        </a>
+        <a href="#projects-section" class="list-group-item list-group-item-action">
+            <img src="images/circlegrey.png"  class="icon" alt="">
+        </a>
+        <a href="#contact-section" class="list-group-item list-group-item-action">
+            <img src="images/circlegrey.png"  class="icon" alt="">
+        </a>
+    </div> -->
+
+    <main data-spy="scroll" data-target="#menu-list" data-offset="0" class="scrollspy-example">
+        <section class="home-introduction" id="home-section">    
             <h2 class="display-3 text-intro">Hi,</h2>
             <h2 class="display-3 text-intro"> I'm <span class="sign display-3 text-intro">&#60;</span> <span class="name-gz display-3 text-intro">Guilherme Zanin</span> <span class="sign display-3 text-intro">&#62;</span></h2>
             <h4 class="display-4 text-intro"> <span class="sign display-3 text-intro">&#123;</span>  FullStack Developer <span class="sign display-3 text-intro">&#125;</span> </h4>
             <button class="contactBtn">Contact me!</button>
         </section>
 
-        <section class="about">
+        <section class="about" id="about-section">
             <div class="bg-about"></div>
             <div class="text-about">
                 <h1 class="title display-4">ABOUT</h1>
@@ -55,42 +67,117 @@
                 <button class="contactBtn">Contact me</button>
             </div>
         </section>
-        <section class="skills">
+        <section class="skills" id="skill-section">
             <h1 class="title display-4">SKILLS</h1>
             <div class="cards">
                 <div class="row">
                     <div class="card-item col">
-                        <img src="images/react-icon.png" class="img-skill" alt="">
+                        <img src="images/icons/react-icon.png" class="img-skill" alt="">
                         <h1 class="text-skill">React</h1>
                         <p class="content-skill">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur error saepe, neque debitis aliquid est consequuntur</p>
                     </div>
                     <div class="card-item col">
-                        <img src="images/javascript-icon.png" class="img-skill" alt="">
+                        <img src="images/icons/javascript-icon.png" class="img-skill" alt="">
                         <h1 class="text-skill">JavaScript</h1>
                         <p class="content-skill">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur error saepe, neque debitis aliquid est consequuntur</p>
                     </div>
                     <div class="card-item col">
-                        <img src="images/git-icon.png" class="img-skill" alt="">
+                        <img src="images/icons/git-icon.png" class="img-skill" alt="">
                         <h1 class="text-skill">Git</h1>
                         <p class="content-skill">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur error saepe, neque debitis aliquid est consequuntur</p>
                     </div>
                 </div>
                 <div class="row">
                     <div class="card-item col">
-                        <img src="images/node-icon.png" class="img-skill" alt="">
+                        <img src="images/icons/node-icon.png" class="img-skill" alt="">
                         <h1 class="text-skill">Node</h1>
                         <p class="content-skill">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur error saepe, neque debitis aliquid est consequuntur</p>
                     </div>
                     <div class="card-item col">
-                        <img src="images/react-icon.png" class="img-skill" alt="">
+                        <img src="images/icons/react-icon.png" class="img-skill" alt="">
                         <h1 class="text-skill">Css</h1>
                         <p class="content-skill">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur error saepe, neque debitis aliquid est consequuntur</p>
                     </div>
                     <div class="card-item col">
-                        <img src="images/bootstrap.png" class="img-skill" alt="">
+                        <img src="images/icons/bootstrap.png" class="img-skill" alt="">
                         <h1 class="text-skill">Bootstrap</h1>
                         <p class="content-skill">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur error saepe, neque debitis aliquid est consequuntur</p>
                     </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects-section" class="projects">
+            <div class="projects">
+                <h1 class="projects-title title display-4">PROJECTS</h1>
+                <div class="projects-gallery d-flex justify-content-around">
+                    <div class="project-item project-item-1">
+                        <div class="mask1"></div>
+                        <a href="https://guilhermezaninps.github.io/eshop-react/" target="_blank" class="container-text">
+                            <h1 class="project-title project-title1 display-3">To-do List</h1>
+                            <p class="project-content project-content1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti fugiat deserunt harum tenetur </p>
+                        </a>
+                    </div>
+                    <div class="project-item project-item-2">
+                        <div class="mask2"></div>
+                        <a href="https://guilhermezaninps.github.io/Insure-Landing-Page/" target="_blank" class="container-text">
+                            <h1 class="project-title project-title2 display-3">Insure Page</h1>
+                            <p class="project-content project-content2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti fugiat deserunt harum tenetur </p>
+                        </a>
+                    </div >
+                </div>
+            </div>
+        </section>
+        <section id="contact-section" class="contact">
+                <h1 class="contact-title title display-4">CONTACT</h1>
+                <div class="container-contacts">
+                    <form class="form-input">
+                        <input type="text" class="input-field" placeholder="Name">
+                        <input type="text" class="input-field" placeholder="Email">
+                        <input type="text" class="input-field" placeholder="Subject">
+                        <textarea type="text" class="input-field message" placeholder="Message"></textarea>
+                        <input type="submit" class="contactBtn" value="Send a message">
+                    </form>
+                    <div class="contact-info">
+                        <div class="contact-info-item">
+                            <img src="/images/icons/phone.png" class="contact-icon">
+                            <h1>+44 7771621493</h1>
+                        </div>
+                        <div class="contact-info-item">
+                            <img src="/images/icons/email.png" class="contact-icon">
+                            <h1>guizanin224@gmail.com</h1>
+                        </div>
+                        <div class="contact-info-item">
+                            <img src="/images/icons/location.png" class="contact-icon">
+                            <h1>Oxford, England</h1>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+        </section>
+        
+        <section id="footer-section" class="footer">
+            <div class="footer">
+                <div class="identify-footer">
+                    <a class="logo" href="#">&lt;GZ&gt;</a>
+                    <h4>Guilherme Zanin</h4>
+                    <h5>FullStack Developer</h5>
+                </div>
+                <div class="social-media" >
+                    <h1 class="footer-social-title">Follow me!</h1>
+                    <div class="icons-footer">
+                        <a href="https://github.com/GuilhermeZaninPs"> <img src="/images/icons/github.png" class="footer-icon" alt=""></a>
+                        <a href="https://www.linkedin.com/in/guilhermezaninps/"><img src="/images/icons/linkedin.png" class="footer-icon" alt=""></a>
+                        <a href="https://www.instagram.com/guiizaninps/"><img src="/images/icons/instagram.png" class="footer-icon" alt=""></a>
+                    </div>
+                </div>
+                <div class="pages-link">
+                    <h1 class="footer-pages">Pages</h1>
+                    <a class="nav-item nav-link links" href="#">Home</a>
+                    <a class="nav-item nav-link links links-footer" href="#">About</a>
+                    <a class="nav-item nav-link links links-footer" href="#">Skills</a>
+                    <a class="nav-item nav-link links links-footer" href="#">Projects</a>
+                    <a class="nav-item nav-link links links-footer" href="#">Contact</a>
+
                 </div>
             </div>
         </section>
@@ -107,6 +194,13 @@
             <a target="_blank" href="https://icons8.com/icon/39853/javascript">JavaScript</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
             <a target="_blank" href="https://icons8.com/icon/38273/css3">CSS3</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
             <a target="_blank" href="https://icons8.com/icon/38388/git">Git</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+
+            <a target="_blank" href="https://icons8.com/icon/9730/phone">Phone</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+            <a target="_blank" href="https://icons8.com/icon/2848/secured-letter">Secured Letter</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+            <a target="_blank" href="https://icons8.com/icon/7880/location">Location</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+
+            <a target="_blank" href="https://icons8.com/icon/8808/linkedin">LinkedIn</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+            <a target="_blank" href="https://icons8.com/icon/16318/github">GitHub</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 
 
         -->
