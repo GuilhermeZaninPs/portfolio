@@ -291,27 +291,7 @@
     
 /* placeholder */
 
-::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-    color:    #ADADAD;
-}
-:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-   color:    #ADADAD;
-   opacity:  1;
-}
-::-moz-placeholder { /* Mozilla Firefox 19+ */
-   color:    #ADADAD;
-   opacity:  1;
-}
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
-   color:    #ADADAD;
-}
-::-ms-input-placeholder { /* Microsoft Edge */
-   color:    #ADADAD;
-}
 
-::placeholder { /* Most modern browsers support this now. */
-   color:    #ADADAD;
-}
 
 hr {
     color: #5C5B5B;
