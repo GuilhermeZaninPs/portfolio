@@ -231,12 +231,12 @@
 
 }
 .project-item-1 {
-    background-image: url('/images/background/eshop-image.png');
+    background-image: url('images/background/eshop-image.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
 .project-item-2 {
-    background-image: url('/images/background/insurance-page.png');
+    background-image: url('images/background/insurance-page.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
