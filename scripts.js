@@ -1,4 +1,15 @@
 
+ new TypeIt("#myElement", {
+    strings: [`<h2 class="display-3 text-intro" >Hi,</h2>`, 
+            `<h2 class="display-3 text-intro" > I'm <span class="sign display-3 text-intro" >&#60;</span> <span class="name-gz display-3 text-intro" >Guilherme Zanin</span> <span class="sign display-3 text-intro">&#62;</span></h2>`,
+            `<h4 class="display-4 text-intro" id="typed2"> <span class="sign display-3 text-intro" >&#123;</span>  Front end Developer <span class="sign display-3 text-intro">&#125;</span></h4>`,
+            // `<button class="contactBtn" onclick="location.href='#contact-section'">Contact me!</button>`
+        ],
+    cursor: false,
+    speed: 30
+  }).go();
+
+
 const link1 = document.querySelector('.container-text1')
 const link2 = document.querySelector('.container-text2')
 
