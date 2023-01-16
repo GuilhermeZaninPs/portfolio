@@ -1,4 +1,3 @@
-
  new TypeIt("#myElement", {
     strings: [`<h2 class="display-3 text-intro" >Hi,</h2>`, 
             `<h2 class="display-3 text-intro" > I'm <span class="sign display-3 text-intro" >&#60;</span> <span class="name-gz display-3 text-intro" >Guilherme Zanin</span> <span class="sign display-3 text-intro">&#62;</span></h2>`,
